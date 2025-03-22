@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.4)
 project(urqmd-afterburner Fortran)
 
+set(CMAKE_Fortran_FLAGS "-fallow-argument-mismatch")
 # default build type: Release
 if(NOT CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE "Release")
